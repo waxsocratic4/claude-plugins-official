@@ -98,6 +98,22 @@
       "homepage": "https://www.airtable.com"
     },
     {
+      "name": "airwallex",
+      "description": "Airwallex CLI plugin for Claude — skills for payments, billing, invoicing, beneficiary creation, card provisioning, and cashflow management.",
+      "author": {
+        "name": "Airwallex"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/airwallex/airwallex-marketplace.git",
+        "path": "plugins/airwallex",
+        "ref": "master",
+        "sha": "95d59ac700f018b0d70f3f4203df6fc494bca2a3"
+      },
+      "homepage": "https://www.airwallex.com/docs"
+    },
+    {
       "name": "alloydb",
       "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and data.",
       "author": {
