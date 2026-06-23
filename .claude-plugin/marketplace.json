@@ -1034,6 +1034,22 @@
       "homepage": "https://github.com/awslabs/agent-plugins"
     },
     {
+      "name": "databricks",
+      "description": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration.",
+      "author": {
+        "name": "Databricks"
+      },
+      "category": "database",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/databricks/databricks-agent-skills.git",
+        "path": "plugins/databricks/claude",
+        "ref": "main",
+        "sha": "e337277c9771597bd2a67dfc5f8dd1d1afc887c6"
+      },
+      "homepage": "https://developers.databricks.com/"
+    },
+    {
       "name": "datadog",
       "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation. This plugin is in preview.",
       "author": {
